@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-family: "Open Sans";
+    color: #fff;
+    background-color: #333;
+}
+
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: teal;
+    border: 3px solid whitesmoke;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 75px;
+    height: 65px; 
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.botao-recarregar {
+    display: block; /* Para que o botão ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    margin-top: 20px;
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    border: 2px solid whitesmoke; /* Adiciona uma borda sólida de 2px com cor #333 */
+    background-color: cadetblue; /* Define a cor de fundo como CADETblue */
+    color: #fff; /* Define a cor do texto como branco */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando hover */
+}
+
+
